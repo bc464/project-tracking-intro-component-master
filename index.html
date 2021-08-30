@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3450e1d73e.js" crossorigin="anonymous"></script>
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+    <body>
+      <div class="containers">
+        <nav>
+          <div class="container1">
+            <div class="row">
+              <div class="col-6">
+                <div class="logo">
+                  <img class="logo-icon" src="./images/logo.svg" alt="logo">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="topnav">
+                  <a href="#" aria-label="link to products">Product</a>
+                  <a href="#" aria-label="link to features">Feature</a>
+                  <a href="#" aria-label="link to pricing">Pricing</a>
+                    <div class="dropdown">
+                      <li class="dot  dropbtn"><a href="#"></a></li>
+                        <div class=" dropdown-content">
+                          <a href="#" aria-label="link to products">Product</a>
+                          <a href="#" aria-label="link to features">Feature</a>
+                          <a href="#" aria-label="link to pricing">Pricing</a>
+                          <br>
+                          <hr>
+                          <a class="login" href="#" aria-label="link to login">Login</a><br>
+                        </div>
+                    </div>
+                  <a class="login" href="#" aria-label="link to login">Login</a>
+                  <a href="javascript:void(0);" id="icon"class="icon" onclick="myFunction()">&#9776;</a>
+                  <a href="javascript:void(0);" id="icon-close"class="icon-close" onclick="myFunction()"><img class="icon-close" src="./images/icon-close.svg" alt="closing icon"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      <main>
+        <div class="container2">
+          <div class="row">
+            <div class="col-6 left-side">
+              <button class="btn btn-new">New</button>
+              <span class="monograph">Monograph Dashboard</span>
+              <h1>Powerful insights into your team</h1>
+              <p>Project planning and time tracking for agile teams</p>
+              <button class="btn btn-schedule">Schedule a demo</button>
+              <span class="preview">to see a preview</span>
+            </div>
+            <div class="col-6 right-side">
+              <div class="image-illustration">
+                <img class="illustration" src="./images/illustration-devices.svg" alt="device illustration">
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div role="footer">
+        <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+         Coded by <a href="#">brian</a>.
+        </p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
